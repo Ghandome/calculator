@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CALCULATOR</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="calculator-wrap">
+            <div class="display" id="result"></div>
+
+            <div class="btn-wrap">
+                <button id="btn-1" onclick="result(1)">1</button>
+                <button id="btn-2" onclick="result(2)">2</button>
+                <button id="btn-3" onclick="result(3)">3</button>
+                <button id="btn-4" onclick="result(4)">4</button>
+                <button id="btn-5" onclick="result(5)">5</button>
+                <button id="btn-6" onclick="result(6)">6</button>
+                <button id="btn-7" onclick="result(7)">7</button>
+                <button id="btn-8" onclick="result(8)">8</button>
+                <button id="btn-9" onclick="result(9)">9</button>
+                <button id="btn-0" onclick="result(0)">0</button>
+                <button id="btn+" onclick="result('+')">+</button>
+                <button id="btn-" onclick="result('-')">-</button>
+                <button id="btn/" onclick="result('/')">/</button>
+                <button id="btn*" onclick="result('*')">*</button>
+                <button id="btne" onclick="addToScreen()">CE</button>
+                <button id="btn=" onclick="sum()">=</button>
+            </div>
+        </div>
+    </body>
+</html>

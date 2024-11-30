@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.calculator-wrap {
+    width: 250px;
+    height: 310px;
+    margin-top: 70px;
+    border: 1px solid black;
+    margin-left: 500px;
+}
+
+.display {
+    height: 20px;
+    width: 200px;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 22px;
+}
+
+.btn-wrap {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+button {
+    padding: 20px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
